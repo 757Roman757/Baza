@@ -7,10 +7,10 @@ app = Flask(__name__)
 CORS(app)
 
 DB_CONFIG = {
-    "dbname": "my_app_db",
-    "user": "postgres",
-    "password": "7575",
-    "host": "localhost",
+    "dbname": "my_app_db_2e4q",
+    "user": "server_user",
+    "password": "uLC4I8SKHp2tYTasrZxgtF2KzdZOCdw1",
+    "host": "dpg-cufofel6l47c73flfseg-a",
     "port": "5432"
 }
 
