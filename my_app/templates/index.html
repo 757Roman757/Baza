@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расширенный поиск</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Расширенный поиск оборудования</h1>
+        
+        <!-- Фильтры -->
+        <div class="filters">
+            <div class="filter-group">
+                <select class="filter-column">
+                    <option value="">Выберите столбец</option>
+                </select>
+                <input type="text" class="filter-value" placeholder="Значение для поиска">
+            </div>
+            <div class="filter-group">
+                <select class="filter-column">
+                    <option value="">Выберите столбец</option>
+                </select>
+                <input type="text" class="filter-value" placeholder="Значение для поиска">
+            </div>
+            <div class="filter-group">
+                <select class="filter-column">
+                    <option value="">Выберите столбец</option>
+                </select>
+                <input type="text" class="filter-value" placeholder="Значение для поиска">
+            </div>
+        </div>
+
+        <!-- Выбор колонок для отображения -->
+        <div class="columns-select">
+            <select class="display-column" multiple>
+                <option value="">Выберите колонки для отображения</option>
+            </select>
+        </div>
+
+        <!-- Кнопка поиска -->
+        <button id="searchBtn">Поиск</button>
+
+        <!-- Результаты -->
+        <table id="resultsTable"></table>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
